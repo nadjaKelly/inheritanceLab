@@ -1,9 +1,6 @@
 package management;
 
-import org.junit.Before;
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
 
 public class ManagerTest {
 
@@ -21,12 +18,17 @@ public class ManagerTest {
    }
 
    @Test
+   public void canGetNiNumber(){
+        assertEquals(54422153, manager.getNiNumber());
+   }
+
+   @Test
     public void canGetName(){
         assertEquals("Pablo", manager.getName());
    }
 
-   @Test void canGetNiNumber(){
-        assertEquals(25000.00, manager.getSalary());
+   @Test void canGetSalaryr(){
+        assertEquals(260000.00, manager.getSalary());
    }
 
    @Test

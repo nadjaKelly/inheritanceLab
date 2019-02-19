@@ -1,10 +1,10 @@
 package techStaff;
 
-import staff.employee;
+import staff.Employee;
 
 public class Developer extends Employee{
 
-    public Developer(String name, String niNumber, float salary){
+    public Developer(String name, int niNumber, float salary){
         super(name, niNumber, salary);
     }
 }
